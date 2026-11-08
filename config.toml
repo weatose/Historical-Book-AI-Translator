@@ -1,0 +1,22 @@
+active = "lemonade"
+
+[book]
+pdf = "book.pdf"
+source_language = "Latin"
+target_language = "English"
+out_dir = "out"
+dpi = 250
+
+[backends.lemonade]
+base_url = "http://127.0.0.1:13305/api/v1"
+api_key = "lemonade"
+vision_model = "Qwen2.5-VL-7B-Instruct-GGUF"
+text_model = "Qwen2.5-VL-7B-Instruct-GGUF"
+requests_per_minute = 0
+
+[backends.tokenlab]
+base_url = "https://api.tokenlab.amd.com/v1"
+api_key_env = "TOKENLAB_API_KEY"
+vision_model = "Qwen3.8-27B"
+text_model = "Qwen3.8-27B"
+requests_per_minute = 18
