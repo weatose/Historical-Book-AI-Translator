@@ -604,3 +604,5 @@ If this work eventually helps even one person discover something new, explore a 
 **Status:** Active development
 
 *Preserving historical knowledge, one page at a time.*
+
+<img width="1280" height="640" alt="github_social_preview_under_1MB" src="https://github.com/user-attachments/assets/e5b9344e-d82c-4339-8c73-b0b79b1d2d8c" />
